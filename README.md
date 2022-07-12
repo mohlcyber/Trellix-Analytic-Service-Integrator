@@ -43,7 +43,7 @@ This is proof of concept code only. In production please make sure to not store 
 
 1. Open the TIE Server Policy in EPO and select the Sandboxing Tab inside the policy.
 
-2. Enter the username and password entered in Installation Step 4
+2. Enter the username and password entered in Installation Step 4.
 
    <img width="875" alt="2" src="https://user-images.githubusercontent.com/25227268/178493586-41bc486d-adcf-41a2-9461-5e00adf7a0fc.png">
    
