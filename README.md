@@ -29,7 +29,7 @@ This is proof of concept code only. In production please make sure to not store 
    
 4. Enter a username and password in line 17 and 18. This username and password will need to be the same as configured in TIE and MWG.
 
-   <img width="861" alt="1" src="https://user-images.githubusercontent.com/25227268/178490885-6313649d-9f54-48fb-89fe-cb41d9f7b574.png">
+   <img width="800" alt="1" src="https://user-images.githubusercontent.com/25227268/178490885-6313649d-9f54-48fb-89fe-cb41d9f7b574.png">
    
 5. Generate an API Key in DOD and enter this key in line 21. 
 
@@ -39,13 +39,25 @@ This is proof of concept code only. In production please make sure to not store 
    flask run --host 0.0.0.0 --port 8080
    ```
    
-## TIE Configuration
+## Trellix TIE Configuration
 
 1. Open the TIE Server Policy in EPO and select the Sandboxing Tab inside the policy.
 
 2. Enter the username and password entered in Installation Step 4.
 
-   <img width="875" alt="2" src="https://user-images.githubusercontent.com/25227268/178493586-41bc486d-adcf-41a2-9461-5e00adf7a0fc.png">
+   <img width="800" alt="2" src="https://user-images.githubusercontent.com/25227268/178493586-41bc486d-adcf-41a2-9461-5e00adf7a0fc.png">
    
 3. Configure the IP address and Port to point to the Flask Application.
+
+## Skyhigh Web Gateway Configuration
+
+1. Open the Web Gateway Policy and import a new Rule Set from the Library.
+
+2. Add the Advanced Threat Detection Rule Set or modify the existing ATD policy.
+
+   <img width="800" alt="3" src="https://user-images.githubusercontent.com/25227268/178501940-64104886-0f1d-44c4-83ea-90f208617c48.png">
+   
+3. Configure the Policy to point to the Flask App and enter the username and password entered in Installation Step 4.
+
+   <img width="800" alt="4" src="https://user-images.githubusercontent.com/25227268/178503192-7ab4a74b-c990-49a6-a9fb-d2ed57b78cdf.png">
    
