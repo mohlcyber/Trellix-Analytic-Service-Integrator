@@ -1,0 +1,92 @@
+{
+    "Summary":
+    {
+        "Behavior":
+        [
+            "Identified as --- by Sandbox"
+        ],
+        "Files":
+        [
+            {
+                "FileType": "0",
+                "Md5": "",
+                "Name": "",
+                "Processes":
+                [
+                    {
+                        "Name": "",
+                        "RelType": "1",
+                        "Sha256": ""
+                    }
+                ],
+                "Sha1": "",
+                "Sha256": ""
+            }
+        ],
+        "JSONversion": "1.003",
+        "JobId": "89",
+        "MISversion": "4.14.0.7",
+        "OSversion": "win7sp1_x86",
+        "Process":
+        [
+            {
+                "Name": "",
+                "Reason": "loaded by MATD Analyzer",
+                "Severity": "-1"
+            }
+        ],
+        "Processes":
+        [
+            {
+                "Name": ""
+            }
+        ],
+        "SUMversion": "4.14.0.7",
+        "Selectors":
+        [
+            {
+                "Engine": "Gateway Anti-Malware",
+                "MalwareName": "---",
+                "Severity": "0"
+            },
+            {
+                "Engine": "Anti-Malware",
+                "MalwareName": "---",
+                "Severity": "0"
+            },
+            {
+                "Engine": "TIE File Reputation (ATD)",
+                "MalwareName": "---",
+                "Severity": "0"
+            },
+            {
+                "Engine": "Sandbox",
+                "MalwareName": "Malware.Dynamic",
+                "Severity": "-1"
+            }
+        ],
+        "Stats":
+        [],
+        "Subject":
+        {
+            "FileType": "0",
+            "Name": "",
+            "Timestamp": "2022-01-26 10:55:39",
+            "Type": "PE32 executable (GUI) Intel 80386",
+            "md5": "",
+            "parent_archive": "Not Available",
+            "sha-1": "",
+            "sha-256": "",
+            "size": ""
+        },
+        "SubmitterName": "admin",
+        "SubmitterType": "STAND_ALONE",
+        "TaskId": "89",
+        "Verdict":
+        {
+            "Description": "",
+            "Severity": ""
+        },
+        "hasDynamicAnalysis": "true"
+    }
+}
